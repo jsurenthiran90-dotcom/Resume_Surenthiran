@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surenthiran J – Senior Change Manager | ITSM Specialist</title>
+<meta name="description" content="Portfolio of Surenthiran J, Senior Change Manager with 13+ years in IT Service Management, CAB leadership and change governance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f7f9; --surface:#ffffff; --ink:#10242f; --muted:#51656f; --line:#d6e0e6;
+  --brand:#0b5d6b; --brand-ink:#ffffff; --signal:#1f8a5b; --signal-bg:#e3f4ec; --deep:#0c2a36;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Public Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1a22; --surface:#13262f; --ink:#e8f0f3; --muted:#9db2bb; --line:#244050;
+    --brand:#5cc3d1; --brand-ink:#082029; --signal:#6fdba6; --signal-bg:#16372b; --deep:#07131a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1a22; --surface:#13262f; --ink:#e8f0f3; --muted:#9db2bb; --line:#244050;
+  --brand:#5cc3d1; --brand-ink:#082029; --signal:#6fdba6; --signal-bg:#16372b; --deep:#07131a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.65}
+a{color:var(--brand)}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,3.2vw,2.3rem);margin-bottom:28px}
+section{padding:72px 0;border-top:1px solid var(--line)}
+p{margin:0 0 1em;max-width:68ch}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.brand{font-family:var(--display);font-weight:700;text-decoration:none;color:var(--ink);font-size:1.1rem}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;overflow-x:auto}
+.nav li a{color:var(--muted);text-decoration:none;font-size:.95rem;font-weight:500;white-space:nowrap}
+.nav li a:hover{color:var(--ink)}
+.theme{background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+
+/* hero */
+.hero{padding:72px 0 80px;border-top:0}
+.hero .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.4vw,4.6rem);font-weight:700}
+.role{font-family:var(--display);font-size:1.3rem;color:var(--brand);margin:14px 0 20px;font-weight:500}
+.lede{color:var(--muted);font-size:1.15rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;text-decoration:none;border:1.5px solid var(--brand)}
+.btn.primary{background:var(--brand);color:var(--brand-ink)}
+.btn.ghost{color:var(--brand)}
+.btn:hover{filter:brightness(1.08)}
+
+/* change record card: the memorable element */
+.rfc{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px -24px rgba(12,42,54,.45);overflow:hidden}
+.rfc-head{background:var(--deep);color:#e8f0f3;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;font-size:.9rem}
+.rfc-head b{font-family:var(--display);font-size:1rem}
+.rfc dl{margin:0;padding:6px 20px 14px}
+.rfc .row{display:grid;grid-template-columns:130px 1fr;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line);font-size:.97rem}
+.rfc .row:last-child{border-bottom:0}
+.rfc dt{color:var(--muted)}
+.rfc dd{margin:0;font-weight:500}
+.status{display:inline-block;background:var(--signal-bg);color:var(--signal);font-weight:600;padding:2px 12px;border-radius:99px}
+.rfc .row{animation:rowin .5s both}
+.rfc .row:nth-child(1){animation-delay:.1s}.rfc .row:nth-child(2){animation-delay:.25s}.rfc .row:nth-child(3){animation-delay:.4s}
+.rfc .row:nth-child(4){animation-delay:.55s}.rfc .row:nth-child(5){animation-delay:.7s}.rfc .row:nth-child(6){animation-delay:.9s}
+@keyframes rowin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.rfc .row{animation:none}html{scroll-behavior:auto}}
+
+/* facts */
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);margin-top:8px}
+.facts div{padding:20px 22px;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts strong{display:block;font-family:var(--display);font-size:1.5rem}
+.facts span{color:var(--muted);font-size:.93rem}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.about ul{margin:0;padding-left:1.1em}
+.about li{margin-bottom:.7em}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0 0 0 28px;border-left:2px solid var(--line)}
+.job{position:relative;padding-bottom:40px}
+.job:last-child{padding-bottom:0}
+.job::before{content:"";position:absolute;left:-37px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--brand)}
+.job h3{font-size:1.35rem}
+.job .meta{color:var(--muted);font-size:.95rem;margin:4px 0 12px}
+.job ul{margin:0;padding-left:1.1em;max-width:76ch}
+.job li{margin-bottom:.5em}
+
+/* capabilities */
+.chips{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.chips li{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-weight:500;font-size:.97rem}
+.cols{display:grid;grid-template-columns:1.4fr 1fr;gap:48px}
+.meter{margin-bottom:16px}
+.meter .top{display:flex;justify-content:space-between;font-weight:500;margin-bottom:6px}
+.meter .bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.meter .bar i{display:block;height:100%;background:var(--brand);border-radius:99px}
+h3.sub{font-size:1.2rem;margin-bottom:16px}
+
+/* achievements & credentials */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.card.lead{grid-column:1/-1;border-left:5px solid var(--signal)}
+.card h3{font-size:1.1rem;margin-bottom:8px}
+.card p{margin:0;color:var(--muted);font-size:1rem}
+.creds{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.creds .card p{color:var(--ink);font-weight:500}
+.creds .card small{color:var(--muted)}
+
+/* contact */
+.contact{background:var(--deep);color:#e8f0f3;border-radius:16px;padding:44px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
+.contact h2{margin-bottom:12px;color:#fff}
+.contact p{color:#b7c9d1}
+.contact a.link{display:block;color:#fff;font-size:1.15rem;font-weight:600;padding:10px 0;border-bottom:1px solid #244050;text-decoration:none}
+.contact a.link:hover{color:#8fdde8}
+footer{padding:32px 0 48px;color:var(--muted);font-size:.9rem;text-align:center}
+
+@media (max-width:860px){
+  .hero .wrap,.about,.cols,.contact{grid-template-columns:1fr}
+  .facts{grid-template-columns:1fr 1fr}
+  .facts div:nth-child(2){border-right:0}
+  .facts div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .cards,.creds{grid-template-columns:1fr}
+  .nav ul{display:none}
+  .contact{padding:28px}
+  section{padding:56px 0}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Surenthiran J</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme" id="themeBtn" type="button" aria-label="Switch between light and dark theme">Theme</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Surenthiran J</h1>
+        <p class="role">Senior Change Manager &amp; IT Service Management Specialist</p>
+        <p class="lede">I keep high-availability production environments stable while teams ship. Over 13 years of change governance, CAB leadership and risk-controlled releases across global banking and enterprise platforms.</p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="#experience">See my experience</a>
+        </div>
+      </div>
+
+      <aside class="rfc" aria-label="Summary shown as a change record">
+        <div class="rfc-head"><b>Change record</b><span>Normal change</span></div>
+        <dl>
+          <div class="row"><dt>Requested by</dt><dd>Surenthiran J</dd></div>
+          <div class="row"><dt>Current role</dt><dd>Senior Change Manager, ANZ</dd></div>
+          <div class="row"><dt>Risk &amp; impact</dt><dd>Assessed, with controls in place</dd></div>
+          <div class="row"><dt>Frameworks</dt><dd>ITIL Foundation certified</dd></div>
+          <div class="row"><dt>Location</dt><dd>Bengaluru, India</dd></div>
+          <div class="row"><dt>CAB decision</dt><dd><span class="status">Approved</span> Open to Senior ITIL Change Manager roles</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="wrap" style="display:block;margin-top:48px">
+      <div class="facts">
+        <div><strong>13+ years</strong><span>in IT Service Management</span></div>
+        <div><strong>3 enterprises</strong><span>ANZ, Accenture, HCL Technologies</span></div>
+        <div><strong>ITIL</strong><span>Foundation certified</span></div>
+        <div><strong>ServiceNow</strong><span>Jira and BMC Remedy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About me</h2>
+      <div class="about">
+        <div>
+          <p>I’m a results-driven ITSM professional focused on change governance, CAB leadership, risk mitigation and enterprise service delivery. My goal is simple: protect operational stability and keep improving how services are delivered.</p>
+          <p>I’ve worked with global enterprises including ANZ, Accenture (for SAP Labs India) and HCL Technologies (for Deutsche Bank), coordinating geographically distributed teams on mission-critical systems.</p>
+        </div>
+        <ul>
+          <li>End-to-end change and release management with governance, compliance and risk-controlled deployments.</li>
+          <li>CAB facilitation, executive reporting and cross-functional stakeholder coordination.</li>
+          <li>Risk and impact assessment, emergency change management and production readiness.</li>
+          <li>SLA and KPI reporting, dashboards and metrics-driven decisions.</li>
+          <li>Known for strong reporting and for training new joiners.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li class="job">
+          <h3>Senior Change Manager, ANZ</h3>
+          <p class="meta">Bengaluru · Nov 2022 – Present</p>
+          <ul>
+            <li>Lead change governance across global banking platforms, protecting service availability and regulatory compliance in multi-region environments.</li>
+            <li>Established risk-based decision frameworks for the Change Advisory Board, giving executives oversight of critical deployments and transformation work.</li>
+            <li>Implemented structured impact assessment models to reduce change-related incidents and strengthen production stability.</li>
+            <li>Aligned technology, infrastructure, cybersecurity and business stakeholders for controlled execution of high-impact releases.</li>
+            <li>Built executive dashboards and performance reports showing SLA adherence, change success rates and operational trends.</li>
+            <li>Managed workflow optimization and automation in ITSM platforms to mature governance and cut operational overhead.</li>
+          </ul>
+        </li>
+        <li class="job">
+          <h3>Change Manager, Accenture</h3>
+          <p class="meta">Client: SAP Labs India · Apr 2017 – Nov 2022</p>
+          <ul>
+            <li>Governed the end-to-end change lifecycle for enterprise SAP ecosystems supporting global business operations.</li>
+            <li>Enforced compliance controls across standard, emergency and exception changes, keeping processes audit-ready.</li>
+            <li>Applied data-driven continuous improvement to strengthen change success metrics and deployment predictability.</li>
+            <li>Standardized quality assurance checkpoints to improve release reliability and reduce enterprise risk.</li>
+            <li>Worked with global delivery leaders to streamline governance workflows and build stakeholder confidence.</li>
+            <li>Refined scheduling controls and conflict management, improving change success rate and reducing disruption risk.</li>
+          </ul>
+        </li>
+        <li class="job">
+          <h3>Change Manager, HCL Technologies</h3>
+          <p class="meta">Client: Deutsche Bank · Oct 2013 – Mar 2017</p>
+          <ul>
+            <li>Directed change control governance in a high-availability banking infrastructure, preserving resilience and minimizing disruption.</li>
+            <li>Guided CAB forums to weigh enterprise risk, scheduling conflicts and business continuity.</li>
+            <li>Introduced structured validation protocols for RFC approvals to ensure deployment readiness and contain risk.</li>
+            <li>Coordinated cross-vendor, distributed teams for disciplined change execution on mission-critical systems.</li>
+            <li>Integrated change controls with release and incident processes, improving lifecycle coordination and reducing post-deployment escalations.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills and tools</h2>
+      <div class="cols">
+        <div>
+          <h3 class="sub">Core competencies</h3>
+          <ul class="chips">
+            <li>IT Service Management (ITSM)</li>
+            <li>Change governance &amp; control</li>
+            <li>Change &amp; release management</li>
+            <li>ITIL framework implementation</li>
+            <li>CAB management &amp; facilitation</li>
+            <li>Risk &amp; impact assessment</li>
+            <li>Production &amp; deployment governance</li>
+            <li>SLA &amp; KPI performance management</li>
+            <li>Continuous service improvement</li>
+            <li>Stakeholder management</li>
+            <li>IT operations &amp; service</li>
+          </ul>
+          <h3 class="sub" style="margin-top:32px">Working style</h3>
+          <ul class="chips">
+            <li>Growth-oriented leadership</li>
+            <li>Cross-functional collaboration</li>
+            <li>Client engagement &amp; communication</li>
+            <li>Adaptable in critical environments</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub">Tool proficiency</h3>
+          <div class="meter"><div class="top"><span>ServiceNow</span><span>100%</span></div><div class="bar"><i style="width:100%"></i></div></div>
+          <div class="meter"><div class="top"><span>Jira</span><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
+          <div class="meter"><div class="top"><span>BMC Remedy</span><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
+          <div class="meter"><div class="top"><span>Microsoft Office Suite</span><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="wrap">
+      <h2>Achievements and credentials</h2>
+      <div class="cards">
+        <div class="card lead">
+          <h3>Client commendation, SAP Labs India</h3>
+          <p>Formally commended for orchestrating high-impact emergency changes with controlled risk mitigation and zero critical service disruption.</p>
+        </div>
+        <div class="card">
+          <h3>Best Overall Performance Award</h3>
+          <p>Received at HCL Technologies for governance excellence, stakeholder confidence and consistent delivery.</p>
+        </div>
+        <div class="card">
+          <h3>Executive and stakeholder accolades</h3>
+          <p>Recognized for driving service stability, raising change governance standards and improving collaboration across global teams.</p>
+        </div>
+        <div class="card">
+          <h3>Fewer change-related incidents</h3>
+          <p>Strengthened pre-implementation review and production assessment frameworks.</p>
+        </div>
+        <div class="card">
+          <h3>Faster approvals, higher success</h3>
+          <p>Shortened approval turnaround through workflow and ITSM tool enhancements in ServiceNow and Jira, and improved change success and SLA compliance through risk validation and CAB controls.</p>
+        </div>
+      </div>
+      <div class="creds">
+        <div class="card"><h3>ITIL Foundation</h3><p>AXELOS</p><small>2019</small></div>
+        <div class="card"><h3>TechCEED ITSM</h3><p>ITIL V3</p><small>2019</small></div>
+        <div class="card"><h3>Defect Prevention Quality Analyst</h3><p>MURI</p><small>2015</small></div>
+      </div>
+      <p style="margin-top:28px;color:var(--muted)">Education: B.E. in Electronics &amp; Communication, Vel Tech Multi Tech Engineering College, 2012. Languages: English, Tamil.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div>
+          <h2>Let’s talk</h2>
+          <p>I’m looking for a Senior ITIL Change Manager role in Bengaluru. Email or call me to discuss how I can strengthen change governance on your team.</p>
+        </div>
+        <div>
+          <a class="link" href="mailto:jsurenthiran90@gmail.com">jsurenthiran90@gmail.com</a>
+          <a class="link" href="tel:+919500146920">+91 95001 46920</a>
+          <a class="link" href="#top" style="border-bottom:0">Bengaluru, India</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="yr">2026</span> Surenthiran J</footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById("themeBtn");
+  document.getElementById("yr").textContent=new Date().getFullYear();
+  btn.addEventListener("click",function(){
+    var dark=root.getAttribute("data-theme")==="dark"||(!root.getAttribute("data-theme")&&window.matchMedia("(prefers-color-scheme: dark)").matches);
+    root.setAttribute("data-theme",dark?"light":"dark");
+  });
+})();
+</script>
+</body>
+</html>
